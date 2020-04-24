@@ -17,10 +17,7 @@ class BookShelf extends Component {
               {booksInShelf.map((book) => (
                 <Book
                   key={book.id}
-                  bookImage={'url("' + book.imageLinks.thumbnail + '")'}
-                  bookTitle={book.title}
-                  bookAuthor={book.authors}
-                  value={book.shelf}
+                  book={book}
                   changeShelf={(newShelf) => this.onChangeShelf(book, newShelf)}
                 />
               ))}

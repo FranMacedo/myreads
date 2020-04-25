@@ -1,6 +1,6 @@
 # MyReads Project
 
-This repository contains my implementation of the MyReads app. MyReads is a bookshelf app that allows the user to select and categorize books they have read, are currently reading, or want to read. It also alows de the user to search for new books and add them to one of their bookshelfs.
+This repository contains my implementation of the MyReads app, first project on the React Nanodegree in [Udacity](www.udacity.com). MyReads is a bookshelf app that allows the user to select and categorize books they have read, are currently reading, or want to read. It also alows de the user to search for new books and add them to one of their bookshelfs.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ or
 To download the project follow the instructions bellow
 
 ```
-git clone https://github.com/computationalcore/myreads
+git clone https://github.com/FranMacedo/myreads
 cd myreads
 ```
 

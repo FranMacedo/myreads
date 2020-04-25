@@ -25,7 +25,7 @@ function BookShelf(props) {
   );
 }
 
-BookShelf.PropTypes = {
+BookShelf.Proptypes = {
   bookShelfTitle: PropTypes.string.isRequired,
   booksInShelf: PropTypes.array.isRequired,
   changeBookShelf: PropTypes.func.isRequired,

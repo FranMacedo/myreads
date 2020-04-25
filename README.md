@@ -9,15 +9,10 @@ purposes.
 
 ### Prerequisites
 
-The project can be built with npm or yarn, so choose one of the approach bellow in case you don't
-have any installed on your system.
+The project can be built with npm:
 
 - npm is distributed with Node.js which means that when you download Node.js,
   you automatically get npm installed on your computer. [Download Node.js](https://github.com/facebookincubator/create-react-app)
-
-or
-
-- Yarn is a package manager built by Facebook Team and seems to be faster than npm in general. [Download Yarn](https://yarnpkg.com/en/docs/install)
 
 ### Installing
 

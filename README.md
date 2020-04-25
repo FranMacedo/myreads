@@ -24,7 +24,7 @@ or
 To download the project follow the instructions bellow
 
 ```
-git clone https://github.com/computationalcore/myreads
+git clone https://github.com/FranMacedo/myreads
 cd myreads
 ```
 

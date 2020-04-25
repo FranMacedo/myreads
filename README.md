@@ -1,38 +1,50 @@
 # MyReads Project
 
-Simple App that allows user to manage their book-reading situation. The user can search, add and change the reading "shelf" of each book.
+This repository contains my implementation of the MyReads app. MyReads is a bookshelf app that allows the user to select and categorize books they have read, are currently reading, or want to read. It also alows de the user to search for new books and add them to one of their bookshelfs.
 
-## TL;DR
+## Getting Started
 
-To get started developing right away:
+These instructions will get you a copy of the project up and running on your local machine for development and testing
+purposes.
 
-- install all project dependencies with `npm install`
-- start the development server with `npm start`
+### Prerequisites
 
-## What You're Getting
+The project can be built with npm or yarn, so choose one of the approach bellow in case you don't
+have any installed on your system.
 
-```bash
-├── CONTRIBUTING.md
-├── README.md - This file.
-├── SEARCH_TERMS.md # The whitelisted short collection of available search terms for you to use with your app.
-├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
-├── public
-│   ├── favicon.ico # React Icon, You may change if you wish.
-│   └── index.html # DO NOT MODIFY
-└── src
-    ├── App.css # Styles for your app. Feel free to customize this as you desire.
-    ├── App.js # This is the root of your app. Contains static HTML right now.
-    ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
-    ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
-    ├── icons # Helpful images for your app. Use at your discretion.
-    │   ├── add.svg
-    │   ├── arrow-back.svg
-    │   └── arrow-drop-down.svg
-    ├── index.css # Global styles. You probably won't need to change anything here.
-    └── index.js # You should not need to modify this file. It is used for DOM rendering only.
+- npm is distributed with Node.js which means that when you download Node.js,
+  you automatically get npm installed on your computer. [Download Node.js](https://github.com/facebookincubator/create-react-app)
+
+or
+
+- Yarn is a package manager built by Facebook Team and seems to be faster than npm in general. [Download Yarn](https://yarnpkg.com/en/docs/install)
+
+### Installing
+
+To download the project follow the instructions bellow
+
+```
+git clone https://github.com/computationalcore/myreads
+cd myreads
 ```
 
-Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
+Install dependencies and run with:
+
+npm
+
+```
+npm install
+npm start
+```
+
+or
+
+yarn
+
+```
+yarn install
+yarn start
+```
 
 ## Backend Server
 

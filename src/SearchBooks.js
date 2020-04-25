@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import Book from "./Book";
 import { Link } from "react-router-dom";
+
 class SearchBooks extends Component {
   state = {
     query: "",
@@ -17,18 +19,14 @@ class SearchBooks extends Component {
   };
 
   render() {
-    const { searchedBooks } = this.props;
+    const { searchedBooks, deleteSearchedBooks } = this.props;
     const query = this.state;
 
     return (
       <div>
         <div className="search-books">
           <div className="search-books-bar">
-            <Link
-              to="/"
-              className="close-search"
-              onClick={this.props.deleteSearchedBooks}
-            >
+            <Link to="/" className="close-search" onClick={deleteSearchedBooks}>
               Close
             </Link>
             <div className="search-books-input-wrapper">
@@ -60,5 +58,12 @@ class SearchBooks extends Component {
     );
   }
 }
+
+SearchBooks.propTypes = {
+  searchedBooks: PropTypes.array.isRequired,
+  getQueryBooks: PropTypes.func.isRequired,
+  changeBookShelf: PropTypes.func.isRequired,
+  deleteSearchedBooks: PropTypes.func.isRequired,
+};
 
 export default SearchBooks;

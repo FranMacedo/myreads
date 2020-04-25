@@ -23,22 +23,11 @@ git clone https://github.com/FranMacedo/myreads
 cd myreads
 ```
 
-Install dependencies and run with:
-
-npm
+Install dependencies and run with npm:
 
 ```
 npm install
 npm start
-```
-
-or
-
-yarn
-
-```
-yarn install
-yarn start
 ```
 
 ## Backend Server
